@@ -21,3 +21,6 @@ zone_name = "monographik.com"
 [observability.logs]
 enabled = false
 invocation_logs = true
+
+[placement]
+mode = "smart"
