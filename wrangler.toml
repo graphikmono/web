@@ -1,0 +1,17 @@
+name = "monographik-website"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Assets configuration
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+# Custom domain routing
+[[routes]]
+pattern = "monographik.com/*"
+zone_name = "monographik.com"
+
+[[routes]]
+pattern = "www.monographik.com/*"
+zone_name = "monographik.com"

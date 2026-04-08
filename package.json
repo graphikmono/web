@@ -1,0 +1,15 @@
+{
+  "name": "monographik-website",
+  "version": "1.0.0",
+  "description": "Monographik Design Studio Portfolio",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
