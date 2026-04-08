@@ -16,3 +16,8 @@ zone_name = "monographik.com"
 [[routes]]
 pattern = "www.monographik.com/*"
 zone_name = "monographik.com"
+
+[observability]
+[observability.logs]
+enabled = false
+invocation_logs = true
